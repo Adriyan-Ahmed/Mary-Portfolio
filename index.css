@@ -15,7 +15,7 @@
     justify-content: space-between;
     align-items: center;
     padding:;
-    margin: 60px 200px;
+    margin: 0px 200px;
 }
 
 #nav-title {
@@ -51,4 +51,15 @@ nav ul li {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+}
+
+.header-content {
+    background-color: #FFF8F3;
+    padding: 60px 0px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
 }
