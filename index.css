@@ -12,13 +12,43 @@
 
 #navbar {
     display: flex;
-    
+    justify-content: space-between;
+    align-items: center;
+    padding:;
+    margin: 60px 200px;
 }
 
 #nav-title {
-    font-weight: 600;
+    color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+#name-color {
+    color: #FD6E0A ;
 }
 
 #nav-actions {
     display: flex;
+    align-items: center;
+    color: #474747;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li {
+    margin: 0px 25px;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #FD6E0A;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
 }
