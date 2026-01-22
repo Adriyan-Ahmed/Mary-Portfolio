@@ -22,6 +22,7 @@
     color: #181818;
   font-size: 45px;
   font-weight: 800;
+  margin: 45px 0px;
 }
 
 #name-color {
@@ -55,11 +56,35 @@ nav ul li {
 
 .header-content {
     background-color: #FFF8F3;
-    padding: 60px 0px;
+    padding: ;
 }
 
 .banner {
     display: flex;
-    justify-content: space-around ;
+    justify-content: space-between ;
     align-items: center;
+    padding: 30px 40px 0px 150px;
+}
+
+#secondery-text {
+    font-size: 45px ;
+    color: #474747;
+}
+
+#name-text {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#banner-image img {
+    width: 500px;
+}
+
+#banner-description {
+    margin-top: 16px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 25px;
 }
