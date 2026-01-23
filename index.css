@@ -66,6 +66,10 @@ nav ul li {
     padding: 30px 40px 0px 150px;
 }
 
+.banner-content {
+    max-width: 585px
+}
+
 #secondery-text {
     font-size: 45px ;
     color: #474747;
@@ -83,8 +87,15 @@ nav ul li {
 }
 
 #banner-description {
-    margin-top: 16px;
+    margin: 16px 0px;
     letter-spacing: 1px;
-    word-spacing: 1px;
+    word-spacing: 1%;
     line-height: 25px;
+}
+
+.header-content {
+    background-color: #fff8f3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
