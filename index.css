@@ -99,3 +99,24 @@ nav ul li {
     background-repeat: no-repeat;
     background-position: bottom right;
 }
+
+.about-section {
+    margin: 130px 0px;
+    padding: 130px ;
+    background-color: #fff8f3;
+}
+
+.about-content {
+    text-align: center;
+}
+
+.section-title {
+    font-size: 35px;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #757575;
+    margin: 18px 0px;
+    line-height: 25px;
+}
