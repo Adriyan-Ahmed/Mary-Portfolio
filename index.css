@@ -100,6 +100,11 @@ nav ul li {
     background-position: bottom right;
 }
 
+main {
+    max-width: 1140px;
+    margin: auto;
+}
+
 .about-section {
     margin: 130px 0px;
     padding: 130px ;
@@ -119,4 +124,26 @@ nav ul li {
     color: #757575;
     margin: 18px 0px;
     line-height: 25px;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.info-container {
+    text-align: center;
+}
+
+
+.info-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 18px 0px;
+}
+
+.info-description {
+    font-size: 16px;
+    letter-spacing: 1px;
 }
